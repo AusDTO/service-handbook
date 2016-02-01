@@ -1,0 +1,20 @@
+exclude:
+  - Gemfile
+  - Gemfile.lock
+baseurl: /service-handbook
+kramdown:
+  input: GFM
+
+collections:
+  discovery:
+    output: true
+
+defaults:
+  - scope:
+      type: discovery
+      path: ""
+    values:
+      layout: main
+      section: discovery
+
+discovery_url: "#{baseurl}/discovery"

@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  background: #fdfdfd;
+}
+
+header.global {
+  background: #fff;
+  padding: 0;
+  overflow: auto;
+  color: #000;
+
+  @media (min-width: 800px) {
+    height: 120px;
+  }
+
+  h1 {
+    padding: 10px;
+
+    @media (min-width: 800px) {
+      float: left;
+      width: 300px;
+      padding: 23px 30px;
+    }
+
+    a {
+      display: block;
+      text-indent: -9999px;
+      margin: 0 auto;
+      background: url('/service-handbook/images/layout/dto-logo.png') no-repeat;
+
+      width: 200px;
+      height: 44px;
+      background-size: 200px 44px;
+
+      @media (min-width: 800px) {
+        width: 288px;
+        height: 64px;
+        background-size: 288px 64px;
+      }
+    }
+  }
+
+  h2 {
+    text-align: center;
+    padding: 10px 0;
+
+    @media (min-width: 800px) {
+      float: left;
+      padding: 50px 120px 0;
+    }
+  }
+}
+
+main {
+  .column-container {
+    position: relative;
+  }
+
+  article {
+    padding: 20px;
+
+    @media (min-width: 800px) {
+      width: 60%;
+      margin: 0 0 0 250px;
+      min-height: 28em;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  &.discovery {
+    header, nav {
+      background: $discovery-colour;
+    }
+  }
+
+  &.home {
+    border-top: 5px solid $primary-colour;
+  }
+}
+
+header.section {
+  width: 100%;
+
+  padding: 0;
+  text-align: center;
+
+  @media (min-width: 800px) {
+    padding: 8px 20px;
+    text-align: left;
+  }
+}
+
+.video {
+  padding: 15px 0;
+}
+
+img.full-width {
+  width: 100%;
+}
+img.half-width {
+  display: inline;
+  width: 50%;
+}

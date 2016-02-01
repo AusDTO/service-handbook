@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
+
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+header.global {
+  h2 {
+    font-weight: normal;
+    font-size: 18px;
+    vertical-align: middle;
+    padding-bottom: 15px;
+
+    @media (min-width: 800px) {
+      font-size: 23px;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+header.section {
+  h1 {
+    font-size: 18px;
+    font-weight: bold;
+
+    @media (min-width: 800px) {
+      font-size: 21px;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  padding: 15px 0;
+}
+
+h1 {
+  font-size: 25px;
+}
+h2 {
+  padding-top: 30px;
+  font-size: 21px;
+}
+
+p, ul {
+  padding: 10px 0;
+}
+ul {
+  padding-left: 20px;
+}
+li {
+  padding: 0 0 3px;
+  list-style: disc;
+
+  &:last-of-type {
+    padding-bottom: 0;
+  }
+}
+
+a {
+  color: $primary-colour;
+}
+
+em {
+  font-style: italic;
+}
+
+.caption {
+  font-size: 14px;
+  font-weight: bold;
+}
