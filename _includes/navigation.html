@@ -2,8 +2,11 @@
   <li>
     {% if page.section == 'discovery' %}
       {% include discovery.html %}}
+    {% elsif page.section == 'alpha' %}
+        {% include alpha.html %}}
     {% else %}
       <a href="{{ site.baseurl }}/discovery">Discovery</a>
+      <a href="{{ site.baseurl }}/alpha">Alpha</a>
     {% endif %}
   </li>
 </ul>

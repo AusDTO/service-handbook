@@ -81,6 +81,12 @@ main {
     }
   }
 
+  &.alpha {
+    header, nav {
+      background: $alpha-colour;
+    }
+  }
+
   &.home {
     border-top: 5px solid $primary-colour;
   }

@@ -20,4 +20,12 @@ defaults:
       layout: main
       section: discovery
 
+  - scope:
+      type: alpha
+      path: ""
+    values:
+      layout: main
+      section: alpha
+
 discovery_url: "#{baseurl}/discovery"
+alpha_url: "#{baseurl}/alpha"
