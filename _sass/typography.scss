@@ -76,8 +76,12 @@ a {
   color: $primary-colour;
 }
 
-em {
+em  {
   font-style: italic;
+}
+
+strong {
+  font-weight: bold;
 }
 
 .caption {
