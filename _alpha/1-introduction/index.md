@@ -26,4 +26,6 @@ An opportunity to validate you are delivering the **Thing Right**:
  - An opportunity to validate users likes/dislikes (instead, it’s confirmation of whether the prototype achieve user needs)
  - Restricted to ONLY prototyping something that is constrained by current business, technical or time constraints - it can help explore a vision for the future, and validate if the effort to implement this over time would be worthwhile.
 
-[Next section: Starting Discovery]({{ site.baseurl }}/discovery/2-starting-discovery)
+![Don't skip alpha](https://raw.githubusercontent.com/colugo/service-handbook/gh-pages/images/alpha/shortcut.jpg)
+
+[Next section: The Alpha Team]({{ site.baseurl }}/alpha/2-alpha-team)
