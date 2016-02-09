@@ -23,4 +23,4 @@ Note, for already established roles, there is significant benefit in continuity 
 
 More detail on the benefits of multidisciplinary teams and the roles within can be found [Here](https://www.dto.gov.au/standard/design-guides/the-team/)
 
-[Next section: XXX]({{ site.baseurl }}/alpha/2-alpha-team)
+[Next section: During Alpha]({{ site.baseurl }}/alpha/3-during-alpha)
