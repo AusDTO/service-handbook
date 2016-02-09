@@ -9,4 +9,4 @@ We recommend starting at [the introduction]({{ site.baseurl }}/discovery/1-intro
 
 This guide will evolve over time as we learn more about the things that work (and those that don't).
 
-We welcome any feedback and suggestions from your own experiences. To make a change, please raise an issue or submit a pull request on our [GitHub repository](https://github.com/ausdto/discovery-guide).
+We welcome any feedback and suggestions from your own experiences. To make a change, please raise an issue or submit a pull request on our [GitHub repository](https://github.com/ausdto/service-handbook).
