@@ -9,6 +9,9 @@ collections:
   discovery:
     output: true
 
+  alpha:
+    output: true
+
 defaults:
   - scope:
       type: discovery
