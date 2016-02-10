@@ -42,6 +42,17 @@ header.section {
       text-decoration: none;
     }
   }
+
+  .draft {
+      background: #fff;
+      font-size: 13px;
+      padding: 1px 4px;
+      text-transform: uppercase;
+      display: inline-block;
+      margin: 0 0 0 4px;
+      vertical-align: middle;
+    }
+
 }
 
 h1, h2, h3 {
@@ -76,11 +87,38 @@ a {
   color: $primary-colour;
 }
 
-em {
+em  {
   font-style: italic;
+}
+
+strong {
+  font-weight: bold;
 }
 
 .caption {
   font-size: 14px;
   font-weight: bold;
+}
+
+
+table {
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table th {
+  font-weight: bold;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
 }
