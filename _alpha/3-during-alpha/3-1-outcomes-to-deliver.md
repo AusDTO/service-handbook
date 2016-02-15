@@ -1,6 +1,6 @@
 ---
-
 title: "3.1. Outcomes to Deliver"
+section: 3-during-alpha
 ---
 
 One or more prototypes are the key artefacts delivered as a result of Alpha. The prototype can range from a interactive HTML application through to a model office, depending on the problem/opportunity space

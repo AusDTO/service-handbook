@@ -1,6 +1,6 @@
 ---
-
 title: '2.5. Artefacts to produce'
+section: 2-starting-discovery
 ---
 
 ## 2.5.1. User needs

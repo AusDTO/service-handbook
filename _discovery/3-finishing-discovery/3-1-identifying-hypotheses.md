@@ -1,6 +1,6 @@
 ---
-
 title: '3.1. Identifying the hypotheses to test'
+section: 3-finishing-discovery
 ---
 
 At the end of the Discovery phase, you'll have a good understanding of the user’s needs, and the service landscape.  You should use this understanding to formulate your hypothesis.  Your hypothesis should define the target state for your service.

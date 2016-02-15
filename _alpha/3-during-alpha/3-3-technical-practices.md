@@ -1,6 +1,6 @@
 ---
-
 title: "3.3. Technical Practices"
+section: 3-during-alpha
 ---
 
 Teams are encouraged to pick technologies which allow rapid validation of the hypothesis and can be responsive to changes in user needs.

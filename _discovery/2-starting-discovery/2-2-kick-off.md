@@ -1,6 +1,6 @@
 ---
-
 title: '2.2. The kick off'
+section: 2-starting-discovery
 ---
 
 The Discovery starts with a kick-off session, which includes the whole team, plus subject matter experts and business owners. It’s helpful for senior stakeholders to drop in for a short while too. Kicking off a Discovery is typically a collection of high-energy collaborative workshops over the course of 2 days.

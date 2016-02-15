@@ -1,6 +1,6 @@
 ---
-
 title: "2.1. Before you start"
+section: 2-starting-discovery
 ---
 
 Before starting a discovery, take some time to prepare so that you can make the most of the time during discovery.

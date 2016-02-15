@@ -1,6 +1,6 @@
 ---
-
 title: '2.3. Ways of working'
+section: 2-starting-discovery
 ---
 
 The team will use Agile techniques and practices, ensuring collaboration, planning and feedback are iteratively integrated throughout the weeks of Discovery.

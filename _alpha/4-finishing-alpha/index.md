@@ -1,6 +1,7 @@
 ---
-
 title: "4. Finishing Alpha"
+section: 4-finishing-alpha
+index: true
 ---
 
 - [4.1. Success for Alpha](4-1-success.html)

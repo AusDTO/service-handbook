@@ -1,6 +1,7 @@
 ---
-
 title: '3. Finishing Discovery'
+section: 3-finishing-discovery
+index: true
 ---
 
 - [3.1. Identifying the hypotheses to test](3-1-identifying-hypotheses.html)

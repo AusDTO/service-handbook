@@ -1,6 +1,7 @@
 ---
-
 title: "1. An introduction to Alpha"
+section: 1-introduction
+index: true
 ---
 
 ## What Alpha is
