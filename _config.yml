@@ -8,24 +8,26 @@ kramdown:
 collections:
   discovery:
     output: true
+    name: Discovery
+    sections:
+      - 1-introduction
+      - 2-starting-discovery
+      - 3-finishing-discovery
+      - 4-further-reading
 
   alpha:
     output: true
+    name: Alpha
+    sections:
+      - 1-introduction
+      - 2-alpha-team
+      - 3-during-alpha
+      - 4-finishing-alpha
 
 defaults:
   - scope:
-      type: discovery
       path: ""
     values:
+      index: false
+      section: null
       layout: main
-      section: discovery
-
-  - scope:
-      type: alpha
-      path: ""
-    values:
-      layout: main
-      section: alpha
-
-discovery_url: "#{baseurl}/discovery"
-alpha_url: "#{baseurl}/alpha"
