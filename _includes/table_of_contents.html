@@ -1,0 +1,22 @@
+{% assign guide = site.collections | where:"label",page.collection | first %}
+
+<ul class="guide-content">
+  {% assign guide_index = guide.docs | where:"section",null | where:"index",true | first %}
+  <li><a href="{{ site.baseurl }}{{ guide_index.url }}">Guide Index</a></li>
+
+  {% for section in guide.sections %}
+    {% assign index = guide.docs | where:"section",section | where:"index",true | first %}
+    <li>
+      <a href="{{ site.baseurl }}{{ index.url }}">{{ index.title }}</a>
+
+      {% assign docs = guide.docs | where:"section",section | where:"index",false %}
+      {% if docs.size > 0 %}
+        <ul>
+          {% for doc in docs %}
+            <li><a href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
