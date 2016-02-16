@@ -4,29 +4,28 @@ section: 1-introduction
 index: true
 ---
 
-## What Alpha is
+Alpha is an experimental phase. It's an opportunity to check if you are building the right thing, before you go ahead and start building a working service.
 
-Alpha is the second stage of the service design and delivery process, where you test your hypothesis by building prototypes in code to explore different ways you might be able to meet your users' needs.
+It's the second stage of the [service design and delivery process](https://www.dto.gov.au/standard/service-design-and-delivery-process/). During Alpha, you test the hypotheses formulated in [Discovery]({{ site.baseurl }}/discovery/) by testing prototypes built in code, exploring different ways of meeting your users' needs.
 
-The purpose of Alpha is to validate if you are delivering the **Right Thing**:
+It's a time to be bold with service design, challenge traditional approaches to solving the user need, and quickly validate them with user research. It's okay (and highly recommended) to throw away the prototypes you build afterwards.
 
- - It's an experimental phase, allowing you to test your hypotheses of how you might design a solution that will meet the user needs that were identified in Discovery
- - You use prototyping to validate ideas throughout
-ensure the way you are designing the service is usable
+Alpha is also the time to establish the team's delivery approach and ways of working. You'll apply the user-centred, cross-functional and multi-disciplinary principles from Discovery to a team that is making software. You'll form a routine of continuously building and testing new ideas, collaborating around the prototypes, and regularly presenting your findings back to stakeholders.
 
-An opportunity to validate you are delivering the **Thing Right**:
+From what you learn, you will be able to define your Minimum Viable Product (MVP) - the simplest thing you can build that meets the user needs. The MVP will set out the scope what is built in Beta. Drawing from the technology research and mapping performed in Discovery, you make choices on the technology you will use to build it.
 
- - You validate the technical ecosystem, tech stack, and appropriateness for Beta and beyond, supporting agility and iteration
- - You form a cross-functional, multi-disciplinary team, working and behaving in an agile manner
- - An opportunity to explore a future vision (beyond the existing constraints)
+You will also be best-placed to formulate a future vision for the service, free of constraints, informing the wider roadmap.
 
-## What Alpha is Not
+## 1.0.1. What Alpha is not
 
- - Phase 1 of the beginning of Beta
- - Prototypes are not intended to be released publicly at the completion of Alpha
- - An opportunity to validate users likes/dislikes (instead, it’s confirmation of whether the prototype achieve user needs)
- - Restricted to ONLY prototyping something that is constrained by current business, technical or time constraints - it can help explore a vision for the future, and validate if the effort to implement this over time would be worthwhile.
+Alpha is not about building a working service. It shouldn't be perceived as building 'phase one' of the Beta.
 
-![Don't skip alpha](https://raw.githubusercontent.com/colugo/service-handbook/gh-pages/images/alpha/shortcut.jpg)
+Although you may decide to do so, there's no expectation that teams will release their prototypes in public (sometimes called a 'public alpha'). However, a public release might be worthwhile if you're illustrating brand new ideas or patterns.
+
+Alpha is not about validating what users like and dislike. Your success measures should be focussed on how well prototypes meet users' actual needs.
+
+It's also not just restricted to prototyping only ideas constrained by current business, technical or time constraints. You should think big and explore a vision for the future, so you can validate if the effort to implement this over time would be worthwhile.
+
+![Don't skip alpha]({{ site.baseurl }}/images/alpha/shortcut.jpg)
 
 [Next section: The Alpha Team]({{ site.baseurl }}/alpha/2-alpha-team)
