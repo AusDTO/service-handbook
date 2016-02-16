@@ -1,5 +1,5 @@
 ---
-title: "1. An introduction to Alpha"
+title: "1. Introduction"
 section: 1-introduction
 index: true
 ---
