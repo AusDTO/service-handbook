@@ -1,6 +1,7 @@
 ---
-
 title: "2. Starting discovery"
+section: 2-starting-discovery
+index: true
 ---
 
 - [2.1. Before you start](2-1-before-you-start.html)

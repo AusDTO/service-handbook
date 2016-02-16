@@ -1,6 +1,6 @@
 ---
-
 title: '3.2. Reporting back findings'
+section: 3-finishing-discovery
 ---
 
 At the end of discovery, you should report back on your findings in a discovery document. This can be shared with senior stakeholders and across government.

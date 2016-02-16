@@ -1,6 +1,6 @@
 ---
-
 title: "3.2. Activities to Complete"
+section: 3-during-alpha
 ---
 ![Activities to complete](https://raw.githubusercontent.com/colugo/service-handbook/gh-pages/images/alpha/activities.jpg)
 

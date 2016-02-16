@@ -1,6 +1,6 @@
 ---
-
 title: '3.3. Assessing against the Digital Service Standard'
+section: 3-finishing-discovery
 ---
 
 At the end of Discovery you should be able to demonstrate that you meet the first few criteria of the Digital Service Standard.

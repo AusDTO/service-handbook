@@ -1,6 +1,7 @@
 ---
-
 title: '4. Further reading and acknowledgements'
+section: 4-further-reading
+index: true
 ---
 
 This guide has been informed by, and uses content from:

@@ -1,6 +1,7 @@
 ---
-
 title: "2. The Alpha Team"
+section: 2-alpha-team
+index: true
 ---
 
 The team makeup required for Alpha builds upon the team already established during Discovery.

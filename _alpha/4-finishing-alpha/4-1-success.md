@@ -1,6 +1,6 @@
 ---
-
 title: "4.1. Success for Alpha"
+section: 4-finishing-alpha
 ---
 
  - User needs: At the completion of Alpha, teams will be have confidence and evidence that the outcome of Alpha and Beta will indeed meet users’ needs.

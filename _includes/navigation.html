@@ -1,11 +1,9 @@
 <ul class="top-level">
   <li>
-    {% if page.section == 'discovery' %}
-      {% include discovery.html %}
-    {% elsif page.section == 'alpha' %}
-        {% include alpha.html %}
-    {% else %}
+    {% if page.section == 'home' %}
       <a href="{{ site.baseurl }}/discovery">Discovery</a>
+    {% else %}
+      {% include table_of_contents.html %}
     {% endif %}
   </li>
 </ul>

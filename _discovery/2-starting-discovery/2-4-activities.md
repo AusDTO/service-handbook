@@ -1,6 +1,6 @@
 ---
-
 title: '2.4. Activities to do'
+section: 2-starting-discovery
 ---
 
 ## 2.4.1. Researching with users of the service

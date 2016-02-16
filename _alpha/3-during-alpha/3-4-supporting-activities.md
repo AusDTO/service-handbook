@@ -1,6 +1,6 @@
 ---
-
 title: "3.4. Supporting Activities"
+section: 3-during-alpha
 ---
 
  - Determine communication channels, schedules

@@ -1,6 +1,6 @@
 ---
-
 title: Index
+index: true
 ---
 
 This is a handbook to help teams going through the Discovery stage of the service delivery process. We've written it from our experience helping agencies run discoveries as part of our Digital Transformation Programme.

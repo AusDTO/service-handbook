@@ -1,6 +1,6 @@
 ---
-
 title: '3.4. Moving into Alpha'
+section: 3-finishing-discovery
 ---
 As you move through the Service Design and Delivery phases, the team will naturally expand and contract, ensuring you have the right skill composition for each phase.
 
