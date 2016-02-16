@@ -20,7 +20,7 @@ collections:
     name: Alpha
     sections:
       - 1-introduction
-      - 2-team
+      - 2-getting-started
       - 3-during-alpha
       - 4-finishing-alpha
 
