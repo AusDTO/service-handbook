@@ -25,7 +25,16 @@ For most prototypes, you will want to include at least some level of interactivi
 
 Whilst it is easy to make the case to use a server-side technology for this functionality (eg. Java, .NET, Ruby), keeping the technology simple will ensure updating the prototype remains as quick and easy as possible.
 
-Use client-side technologies like [the Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API) to quickly store and retrieve information for the user's session. Make it easy to reset and start again at the end of a user research session.
+Use client-side technologies like [the Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API), combined with a JavaScript framework like [jQuery](https://jquery.com/), to quickly store and retrieve information for the user's session. Make it easy to reset and start again at the end of a user research session.
+
+## 3.2.3. Don't support every browser
+
+The potential audience for a prototype is often limited. Many users are likely to be accessing the prototype from a controlled environment (eg. a user research lab). This means that the potential browsers to support is smaller than a public website.
+
+Consider targeting the latest version of each major browser (Chrome, Firefox, IE, Safari). You may also wish to target a specific browser or version if a specific group of users or stakeholders depend on it.
+
+As part of the user research, you should test your prototypes with users who have accessibility needs. Therefore, it is strongly recommended to use semantic and accessible markup across prototypes, and test with screen reader software and other accessibility aids.
+
 
 
 [Next section: Supporting Activities](3-4-supporting-activities.html)
