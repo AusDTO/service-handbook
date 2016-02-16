@@ -1,7 +1,6 @@
 ---
-title: "2. The team"
-section: 2-team
-index: true
+title: "2.1. The team"
+section: 2-getting-started
 ---
 
 Alpha requires a cross-functional team of capable digital specialists, subject matter experts, and a strong service manager.
@@ -27,4 +26,4 @@ There is more detail on each of these roles [in the Digital Service Standard](ht
 
 The DTO will also provide a Digital Transformation Advisor to assist projects based in its delivery hubs.
 
-[Next section: During Alpha]({{ site.baseurl }}/alpha/3-during-alpha)
+[Next section: The kick-off](2-2-the-kick-off.html)
