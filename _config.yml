@@ -21,7 +21,7 @@ collections:
     sections:
       - 1-introduction
       - 2-getting-started
-      - 3-during-alpha
+      - 3-building-prototypes
       - 4-finishing-alpha
 
 defaults:
