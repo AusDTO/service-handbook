@@ -19,7 +19,8 @@ The team can meet this criteria by:
 - Articulating insights that identify design requirements; both digital and assisted digital
 - Explaining their user research approach, plan and findings.
 
-Design guides that will be helpful in meeting this criteria include: [affinity diagramming](https://www.dto.gov.au/design-guides/subguides/affinity-diagramming); [card sorting](https://www.dto.gov.au/design-guides/subguides/card-sorting); [ethnographic research](https://www.dto.gov.au/design-guides/subguides/ethnographic-research); [high level design](https://www.dto.gov.au/design-guides/subguides/high-level-design); [interviews](https://www.dto.gov.au/design-guides/subguides/interviews); [personas](https://www.dto.gov.au/design-guides/subguides/personas); [professional research methods](https://www.dto.gov.au/design-guides/subguides/professional-research-methods); [scenarios](https://www.dto.gov.au/design-guides/subguides/scenarios); [user pathways](https://www.dto.gov.au/design-guides/subguides/user-pathways); [user research](https://www.dto.gov.au/design-guides/guide/user-research); [user stories](https://www.dto.gov.au/design-guides/subguides/user-stories); [workshops](https://www.dto.gov.au/design-guides/subguides/workshops).
+Design guides that will be helpful in meeting this criteria include: [affinity diagramming](https://www.dto.gov.au/standard/design-guides/user-research/affinity-diagramming/);
+ [card sorting](https://www.dto.gov.au/standard/design-guides/user-research/card-sorting); [ethnographic research](https://www.dto.gov.au/standard/design-guides/user-research/ethnographic-research); [high level design](https://www.dto.gov.au/standard/design-guides/user-research/high-level-design); [interviews](https://www.dto.gov.au/standard/design-guides/user-research/interviews); [personas](https://www.dto.gov.au/standard/design-guides/user-research/personas); [professional research methods](https://www.dto.gov.au/standard/design-guides/user-research/professional-research-methods); [scenarios](https://www.dto.gov.au/standard/design-guides/user-research/scenarios); [user pathways](https://www.dto.gov.au/standard/design-guides/user-research/user-pathways); [user research](https://www.dto.gov.au/standard/design-guides/user-research/); [user stories](https://www.dto.gov.au/standard/design-guides/user-research/user-stories); [workshops](https://www.dto.gov.au/standard/design-guides/user-research/workshops).
 
 Potential artefacts that are likely to be produced during Discovery:
 
@@ -42,7 +43,7 @@ The team can meet this criteria by:
 - Establishing the team principles, vision, rituals and practices
 - Demonstrating that they are working an Agile way using tools and techniques that support collaboration and communication
 
-Design guides that will be helpful in meeting this criteria include: [team recruitment](https://www.dto.gov.au/design-guides/subguides/team-recruitment); [the team](https://www.dto.gov.au/design-guides/guide/team); [agile](https://www.dto.gov.au/design-guides/guide/agile);
+Design guides that will be helpful in meeting this criteria include: [team recruitment](https://www.dto.gov.au/standard/design-guides/the-team/team-recruitment/); [the team](https://www.dto.gov.au/standard/design-guides/the-team/); [agile](https://www.dto.gov.au/standard/design-guides/agile/);
 
 Potential artefacts that are likely to be produced during Discovery:
 

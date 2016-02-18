@@ -7,7 +7,7 @@ The team will use Agile techniques and practices, ensuring collaboration, planni
 
 <iframe class="video" width="100%" height="315" src="https://www.youtube.com/embed/502ILHjX9EE" frameborder="0" allowfullscreen></iframe>
 
-<img src="{{ site.baseurl }}/images/discovery/2/agile-approach.png" class="full-width">
+<img src="{{ site.baseurl }}/images/discovery/2/agile-approach.png" class="full-width" alt="Overview of the agile approach">
 
 ## 2.3.1. Sprints
 

@@ -37,4 +37,4 @@ As part of the user research, you should test your prototypes with users who hav
 
 
 
-[Next section: Supporting Activities](3-4-supporting-activities.html)
+[Next section: Supporting Activities]({{ site.baseurl }}/alpha/4-finishing-alpha/4-1-defining-mvp.html)
