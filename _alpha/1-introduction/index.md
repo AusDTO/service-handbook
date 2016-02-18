@@ -28,4 +28,4 @@ It's also not just restricted to prototyping only ideas constrained by current b
 
 ![Don't skip alpha]({{ site.baseurl }}/images/alpha/shortcut.jpg)
 
-[Next section: The team]({{ site.baseurl }}/alpha/2-team)
+[Next section: The team]({{ site.baseurl }}/alpha/2-getting-started/2-1-the-team.html)
