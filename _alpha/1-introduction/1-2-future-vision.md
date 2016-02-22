@@ -23,4 +23,4 @@ Once you have a good idea of the vision, you need to find out if it's worth doin
 
 The best way to do this is by prototyping. By [quickly building prototypes]({{ site.baseurl }}/alpha/3-building-prototypes/3-1-what-is-prototype.html) and testing them with users, you can validate the vision and continue to iterate it.
 
-You can throw away your prototypes afterwards. Not everything you try will work. You will learn more from the ideas that don't work rather than the ones that do.
+You can throw away your prototypes afterwards. Not everything you try will work. You will learn more from the ideas that don't work than the ones that do.
