@@ -4,6 +4,8 @@ section: 1-introduction
 index: true
 ---
 
+![Diagram giving an overview of the alpha process]({{ site.baseurl }}/images/alpha/process.png)
+
 Alpha is an experimental phase. It's an opportunity to check if you are building the right thing, before you go ahead and start building a working service.
 
 It's the second stage of the [service design and delivery process](https://www.dto.gov.au/standard/service-design-and-delivery-process/). During Alpha, you test the hypotheses formulated in [Discovery]({{ site.baseurl }}/discovery/) by testing prototypes built in code, exploring different ways of meeting your users' needs.
