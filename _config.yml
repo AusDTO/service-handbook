@@ -2,6 +2,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
 baseurl: /service-handbook
+
+markdown: kramdown
 kramdown:
   input: GFM
 
