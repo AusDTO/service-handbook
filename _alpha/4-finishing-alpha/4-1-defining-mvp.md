@@ -9,7 +9,7 @@ Eric Reis [defines the MVP](http://www.startuplessonslearned.com/2009/08/minimum
 
 So far, the prototypes you've built in Alpha could be described as earliest _testable_ products, as they've been low-fidelity mockups focussed on quickly validating a hypothesis.
 
-In Beta, you will create a minimum _usable_ product: the simplest working service that meets a real user need.
+In Beta, you will create an earliest _usable_ product: the simplest working service that meets a real user need.
 
 A minimum viable product:
 
