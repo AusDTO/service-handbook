@@ -7,7 +7,7 @@ By the end of Alpha, you will need to have defined the Minimum Viable Product, o
 
 Eric Reis [defines the MVP](http://www.startuplessonslearned.com/2009/08/minimum-viable-product-guide.html) as the version of a new product which allows a team to collect the maximum amount of validated learning about customers with the least effort.
 
-So far, the prototypes you've built in Alpha could be described as earliest _testable_ products, as they've been low-fidelity mockups focussed on quickly validate a hypothesis.
+So far, the prototypes you've built in Alpha could be described as earliest _testable_ products, as they've been low-fidelity mockups focussed on quickly validating a hypothesis.
 
 In Beta, you will create a minimum _usable_ product: the simplest working service that meets a real user need.
 
