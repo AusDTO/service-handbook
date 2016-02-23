@@ -25,5 +25,3 @@ For alpha, the following roles in the team are essential:
 There is more detail on each of these roles [in the Digital Service Standard](https://www.dto.gov.au/standard/design-guides/the-team/).
 
 The DTO will also provide a Digital Transformation Advisor to assist projects based in its delivery hubs.
-
-[Next section: The kick-off](2-2-the-kick-off.html)

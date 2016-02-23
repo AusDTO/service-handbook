@@ -47,5 +47,3 @@ Techniques to represent the work include:
 - help needed: tasks which are blocked and need assistance from outside of the team
 
 Depending on the team, you may also want to track team tasks using an online tool like JIRA or Trello.
-
-[Next: Activities](2-4-activities.html)

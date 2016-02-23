@@ -28,5 +28,3 @@ Alpha is not about validating what users like and dislike. Your success measures
 It's also not just restricted to prototyping only ideas constrained by current business, technical or time constraints. You should think big and explore a vision for the future, so you can validate if the effort to implement this over time would be worthwhile.
 
 ![Don't skip alpha]({{ site.baseurl }}/images/alpha/shortcut.jpg)
-
-[Next section: The team]({{ site.baseurl }}/alpha/2-getting-started/2-1-the-team.html)
