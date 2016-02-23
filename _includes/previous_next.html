@@ -1,0 +1,93 @@
+{% assign guide = site.collections | where:"label",page.collection | first %}
+{% assign current_section = page.section %}
+
+{% assign next_page = page.next %}
+{% assign previous_page = page.previous %}
+
+{% if page.index == true %}
+  {% comment %}
+    For index pages, the next page will always be either the first non-index
+    page of the section (if one is present), or the next section index.
+  {% endcomment %}
+
+  {% assign next_page = guide.docs | where:"section",current_section | where:"index",false | first %}
+  {% unless next_page %}
+    {% assign next_page = guide.docs | where:"section",page.next.section | where:"index",true | first %}
+  {% endunless %}
+
+  {% if page.section == null %}
+    {% comment %}
+      This is for the Guide Index page - it won't have a section set.
+    {% endcomment %}
+
+    {% assign first_section = guide.sections.first %}
+    {% assign next_page = guide.docs | where:"section",first_section | where:"index",true | first %}
+    {% assign previous_page = null %}
+
+  {% elsif page.section == guide.sections.first %}
+    {% comment %}
+      If this is the first section of the guide, the previous page will be the
+      Guide Index link.
+    {% endcomment %}
+
+    {% assign guide_index = guide.docs | where:"section",null | where:"index",true | first %}
+    {% assign previous_page = guide_index %}
+
+  {% else %}
+    {% comment %}
+      For all other guide index pages, the previous page will *either* be the
+      last page in the previous section, or the index of the previous section.
+    {% endcomment %}
+
+    {% assign current_section_first_page = guide.docs | where:"section",current_section | first %}
+    {% assign previous_section = current_section_first_page.previous.section %}
+
+    {% assign previous_page = guide.docs | where:"section",previous_section | where:"index",false | last %}
+    {% unless previous_page %}
+      {% assign previous_page = guide.docs | where:"section",previous_section | where:"index",true | last %}
+    {% endunless %}
+
+  {% endif %}
+{% else %}
+
+  {% if next_page.index == true %}
+    {% comment %}
+      If the next page is an index, then we want to link to the index page of
+      the next section. Due to a Jekyll quirk, the value of "page.next" here will
+      actually be the index page of the _current_ section.
+
+      To get around this, we search specifically through the documents list for
+      the index page we want.
+    {% endcomment %}
+
+    {% assign next_section = page.next.next.section %}
+    {% assign next_page = guide.docs | where:"section",next_section | where:"index",true | first %}
+  {% endif %}
+
+  {% if previous_page.index == true or previous_page == null %}
+    {% comment %}
+      When the previous page is an index - or where Jekyll thinks there is no
+      previous page at all (eg. the first page of the first section of a guide),
+      then we can show the index page for the current section.
+    {% endcomment %}
+
+    {% assign previous_page = guide.docs | where:"section",current_section | where:"index",true | first %}
+  {% endif %}
+
+{% endif %}
+
+<aside class="previous-next">
+
+  {% if previous_page %}
+  <a class="previous-page" href="{{ site.baseurl }}{{ previous_page.url }}">
+    Previous page: <span>{{ previous_page.title }}</span>
+  </a>
+  {% endif %}
+
+  {% if next_page %}
+  <a class="next-page" href="{{ site.baseurl }}{{ next_page.url }}">
+    Next page: <span>{{ next_page.title }}</span>
+  </a>
+  {% endif %}
+
+</aside>

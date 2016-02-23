@@ -1,0 +1,26 @@
+.previous-next {
+  border-top: 1px solid #eee;
+  padding: 20px 0 40px;
+  margin-top: 20px;
+  overflow: auto;
+
+  a {
+    color: #666;
+    font-size: 14px;
+    text-decoration: none;
+
+    span {
+      font-size: 21px;
+      display: block;
+      text-decoration: underline;
+    }
+
+    &.previous-page {
+      float: left;
+    }
+    &.next-page {
+      float: right;
+      text-align: right;
+    }
+  }
+}
