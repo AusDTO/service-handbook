@@ -76,6 +76,16 @@
 
 {% endif %}
 
+{% assign guide_index  = guide.relative_directory  | append: "/index.md" %}
+{% if next_page.path == guide_index %}
+  {% comment %}
+    When we reach the end of the guide, next_page will wrap back to the guide's
+    index. Guides don't necessarially follow a linear sequence, so we don't want
+    to automatically generate any navigation for what to read next.
+  {% endcomment %}
+  {% assign next_page == null %}
+{% endif %}
+
 <aside class="previous-next">
 
   {% if previous_page %}
