@@ -87,6 +87,12 @@ main {
     }
   }
 
+  &.capability {
+    header, nav {
+      background: $capability-colour;
+    }
+  }
+
   &.home {
     border-top: 5px solid $primary-colour;
   }
