@@ -29,5 +29,3 @@ Activities you'll carry out during Alpha:
 - Test technical integrations and end-points
 
 At the end of the Alpha phase, you'll have explored multiple prototypes, evaluating each solution against user needs, tested technical integrations and endpoints.  You'll use this understanding to define the MVP scope for your service.  
-
-[Next section: Further Reading]({{ site.baseurl }}/discovery/4-further-reading)

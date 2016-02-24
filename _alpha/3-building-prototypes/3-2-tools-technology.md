@@ -34,7 +34,3 @@ The potential audience for a prototype is often limited. Many users are likely t
 Consider targeting the latest version of each major browser (Chrome, Firefox, IE, Safari). You may also wish to target a specific browser or version if a specific group of users or stakeholders depend on it.
 
 As part of the user research, you should test your prototypes with users who have accessibility needs. Therefore, it is strongly recommended to use semantic and accessible markup across prototypes, and test with screen reader software and other accessibility aids.
-
-
-
-[Next section: Supporting Activities]({{ site.baseurl }}/alpha/4-finishing-alpha/4-1-defining-mvp.html)
