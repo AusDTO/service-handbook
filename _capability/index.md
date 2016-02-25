@@ -9,4 +9,4 @@ The guide is part of the [Service Handbook]({{ site.baseurl }}), a growing colle
 
 We welcome any feedback and suggestions from your own experiences. To make a suggestion, please raise an issue or submit a pull request on our [GitHub repository](https://github.com/ausdto/service-handbook).
 
-We suggest starting at [the introduction]({{ site.baseurl }}/alpha/1-introduction/1-1-what.html).
+We suggest starting at [the introduction]({{ site.baseurl }}/capability/1-introduction/).
