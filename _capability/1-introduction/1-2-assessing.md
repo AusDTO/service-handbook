@@ -13,10 +13,10 @@ If you access the spreadsheet while signed in with a google account, you can tak
 
 Sample questions that help you prompt the person into answering questions in a way you can measure.
 
-![Example questions ](https://raw.githubusercontent.com/colugo/cautious-turtle/gh-pages/images/example_questions.jpg)
+![Example questions ]({{ site.baseurl }}/images/capability/example_questions.jpg)
 
 **Example score card**
 
 A scorecard is produced based on the person's answers, which gives you an at-a-glance view on their maturity level with the capability model.
 
-<img src="https://raw.githubusercontent.com/colugo/cautious-turtle/gh-pages/images/example_scorecard.jpg" alt="Example scorecard" width="50%"/>
+<img src="{{ site.baseurl }}/images/capability/example_scorecard.jpg" alt="Example scorecard" width="50%"/>
