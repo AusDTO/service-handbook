@@ -1,0 +1,16 @@
+---
+layout: main
+---
+
+{{ content }}
+
+<aside class="section">
+  {% assign guide = site.collections | where:"label",page.collection | first %}
+  {% assign children = guide.docs | where:"section",page.section | where:"index",false %}
+
+  <ul>
+    {% for child in children %}
+    <li><a href="{{ site.baseurl }}{{ child.url }}">{{ child.title }}</a></li>
+    {% endfor %}
+  </ul>
+</aside>
