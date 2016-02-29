@@ -63,6 +63,6 @@ The team have developed the confidence to experiment and innovate to help delive
 
 ### Indications that you're operating at level 2
 
-- Code analysis tools are used to identify code coverage, which is near 100% for the majority the code base, and particularly hairy sections of the code have several tests to ensure the edge cases work.
+- Code analysis tools are used to identify code coverage which is near 80% to 90% of the code base, with particularly complex sections of the code having several tests to ensure the edge cases work. Code coverage metrics identify areas of the code which aren't tested enough, not that you've finished testing. 
 - Automated integration and acceptance testing tools are used to ensure that the overarching system works as expected. User stories are used as input to acceptance testing, allowing the
 -  Dependency injection and mocking frameworks are used to isolate the components under-test from the rest of the system, allowing the components to be tested for a variety of circumstances independently of the dependencies, such as a database and time dependent actions like reminders.

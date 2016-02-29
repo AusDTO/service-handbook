@@ -49,3 +49,4 @@ Ongoing interaction between the team and users allows the team to really focus o
 - Users are able to request modifications and enhancements to the system, and the community vote and prioritise the things that are important to them.
 - The system provides anonymised information about how the users actually use the system, allowing the developers to see if features are used as expected, and what optimisations can be made for a better user experience
 - The system is able to identify when bugs occur, and automatically raise support tickets, alleviating the user from needing to describe what they were doing when the issue occurred
+- The project team are involved with first line support, giving them a real appreciation for the impacts of their decisions on the users.

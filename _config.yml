@@ -31,7 +31,6 @@ collections:
     name: Capability
     sections:
       - 1-introduction
-      - 2-teamwork
       - 3-prototyping
       - 4-development
       - 5-version-control

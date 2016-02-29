@@ -40,7 +40,7 @@ Time is short and you don't have the luxury of spending much time on throwaway p
 
 ### Moving to level 1
 
- - Paper prototypes are more useful then static WYSIWYG produced mockups. They take less time to produce, are easy to modify and can be distributed easily.
+ - Paper prototypes are more useful than static WYSIWYG produced mockups. They take less time to produce, are easy to modify and can be distributed easily.
  - Start to share your prototypes with a wider audience of users. This may mean that you need to rethink how you explain the flow of your prototypes, and what distribution mechanisms you use.
  - Focus on the high-value parts of the prototype, and skip everything else. Large amounts of text or content that doesn't help to evaluate this approach to the MVP will probably distract people.
  - Read up on [Sketching in Code](http://alistapart.com/article/sketchingincode), which gets you started on developing prototypes in the technologies used for the final product.
