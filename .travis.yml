@@ -7,7 +7,7 @@ install: gem install github-pages html-proofer
 script:
   - bundler install
   - bundle exec jekyll build -d _site/service-handbook/
-  - htmlproof ./_site
+  - htmlproofer ./_site
 
 # branch whitelist, only for GitHub Pages
 branches:

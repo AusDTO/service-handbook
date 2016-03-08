@@ -6,11 +6,9 @@ index: true
 
 Developing digital products creates files. Lots of files.
 Each of these files specifies something about the solution: how it works, how it looks, what it's called.
-The collective set of files *is* the solution.
+The collective set of files *is* the product.
 
-Version control systems protect these files from accidents, like deletions, by keeping track of every change that you, and your team, make.
-
-
+Version control systems protect these files from accidents, like deletions, by keeping track of every change that you and your team make.
 
 
 >To support collective ownership, use a concurrent model of version control.
@@ -25,31 +23,54 @@ Version control systems protect these files from accidents, like deletions, by k
 >  -- http://www.jamesshore.com/Agile-Book/version_control.html
 
 
+# Level 0
 
-Resources:
+The team use version control because they all work on shared components, but a shared directory would probably work as well. Checking in code is seen as an annoying, but necessary part of working in the team.
 
- - [InfoQ](http://www.infoq.com/articles/agile-version-control)
- - [The Art of Agile](http://www.jamesshore.com/Agile-Book/version_control.html)
- - [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/)
- - [A Simple Git Branching Model](https://gist.github.com/aussielunix/59957626d6eace17be64)
- - [Atomic Commits](http://www.freshconsulting.com/atomic-commits/)
+### Indications that you're operating at level 0
 
-### Level 0
- - The developers are the only team members who know what a version control repository is
- - The repository only has one branch, the trunk, that contains the code for the system. Any in-progress work is stored on the developer's machine
- - The repository's log is full of unhelpful and inconsistent commit messages, and it is impossible to recreate what, how, and why things were done
- - The changes introduced in single commits is haphazard, and typically contains whatever has been changed on the local machine
+ - The only team members who have access to, and know how to use the version control repository are the developerss. Whenever a non-developer needs to access or change something, they need to track down and get a developer to do the work for them.
+ - The repository only has one branch, the trunk, that contains the code for the system. Any in-progress work is stored on each developer's machine, and isn't shared with anyone until the final check in. Developers are hesitant to integrate with others' code because it might break what they're working on.
+ - The repository's log is full of unhelpful and inconsistent commit messages, and it is impossible to recreate what, how, and why things were done. When issues occur in production, the team programmatically work back through each change-set to try and identify when things went wrong.
+ - The changes introduced in single commits is haphazard, typically containing the files needed for the new feature, and whatever else has been changed on the developer's machine.
 
-### Level 1
- - Multiple branches are used to introduce new functionality
- - The version control system is used to authoritatively hold the projects code, dependencies and configuration
- - Commits to the repository are made daily, typically at the end of the day before the team members go home.
- - Ancillary features of the version control system, such as identifying differences are being used
 
-### Level 2
- - There are lots of open branches, each one containing the development on a new feature or refactoring existing ones
- - The team exploit all features of the version control system: triggering builds, code reviews, comments, feature requests, notifications, etc
- - The master branch always contains working code, and isn't ever in a broken state. Feature branches always compile, but are in varying stages of completion
- - Changes made to the repository are small, contained and atomic, resulting in lots of frequent commits
- - Important points in the project's history are tagged, such as milestone releases, and archived for future reference
- - The repository's log communicates the context about why changes were made and what decisions were taken
+### Working towards level 1
+
+ - Get the rest of your team onboard with version control. Content editors should be able to make changes just as easily and frequently as developers, but they can't iterate effectively if they're shackled to the developers.
+ - Start using branches for feature development, bug fixes and refactoring. This will help to keep your trunk stable, working and reliable.
+ - Focus on making commits first-order-citizens ([How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/)) of the project, and treat them accordingly. When you're under the pump to fix a bug, a well written commit log really helps you figure out what, when, and why something happened.
+
+# Level 1
+
+The team's version control repository is seen as a key enabler for delivery and is consulted multiple times a day for authoritative information on how the team is tracking.
+
+The team spend time manually integrating and correlating the information in the repository and other project artefacts like user stories and defects.
+
+### Indications that you're operating at level 1
+
+- The repository has multiple active branches on the go, which the team use for introducing new features. This helps keep the trunk clean, which makes it easier to work on bug fixes.
+- The version control system is more than just code storage, and is used to hold dependencies, configuration, content and documentation.
+- Commits to the repository are made daily, but typically at the end of the day before the team members go home. This helps ensure that effort isn't lost, but it leaves the repository in an inconsistent state, and is difficult to work out what has happened.
+- Ancillary features of the version control system, such as issue tracking and collaboration are being used by the team, for example to close or open a bug with a commit message.
+
+
+### Working towards level 2
+
+ - Work on getting your commits to be self-contained, and focused on small units of work. [Atomic commits](http://www.freshconsulting.com/atomic-commits/)
+ - Start to integrate your development processes with the version control system - trigger automated builds when somebody commits to the repository, and use the code review features to work collaboratively.
+ - Experiment with how you can use the repository to help with feature deployments and rollbacks. Being able to quickly introduce or remove features is a really useful capability to have.
+
+
+# Level 2
+
+A simple but rigorous process helps the team work on multiple features simultaneously, which can be deployed and pulled individually and quickly.
+
+### Indications that you're operating at level 2
+
+- There are several open and actively contributed to branches, each one containing the development on a new feature, bug fix, or refactoring existing code.
+- The team use and exploit all features of the version control system (triggering builds, code reviews, comments, feature requests, notifications, etc)  to streamline the development process.
+- The master branch always contains working code, and isn't ever in a broken state. Feature branches always compile, but are in varying stages of completion. This makes it easy for team members to pickup the code and contribute, knowing that everything is in a consistent state.
+- Changes made to the repository are small, contained and atomic, resulting in lots of frequent commits that are targeted at a particular issue
+- Important points in the project's history are tagged, such as milestone releases, and archived for future reference
+- The repository's log communicates the context about why changes were made and what decisions were taken.
