@@ -29,7 +29,7 @@ The team use version control because they all work on shared components, but a s
 
 ### Indications that you're operating at level 0
 
- - The only team members who have access to, and know how to use the version control repository are the developerss. Whenever a non-developer needs to access or change something, they need to track down and get a developer to do the work for them.
+ - The only team members who have access to, and know how to use the version control repository are the developers. Whenever a non-developer needs to access or change something, they need to track down and get a developer to do the work for them.
  - The repository only has one branch, the trunk, that contains the code for the system. Any in-progress work is stored on each developer's machine, and isn't shared with anyone until the final check in. Developers are hesitant to integrate with others' code because it might break what they're working on.
  - The repository's log is full of unhelpful and inconsistent commit messages, and it is impossible to recreate what, how, and why things were done. When issues occur in production, the team programmatically work back through each change-set to try and identify when things went wrong.
  - The changes introduced in single commits is haphazard, typically containing the files needed for the new feature, and whatever else has been changed on the developer's machine.
