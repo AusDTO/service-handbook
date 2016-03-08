@@ -49,7 +49,7 @@ The links jekyll generates expect the site to be hosted under a directory called
 
 html-proofer will check all the internal and external links exist, examine your html is valid, and ensure that good practices are followed, like having alt tags for images.
 
-> $ bundle exec htmlproof ./_site
+> $ bundle exec htmlproofer ./_site
 
 #### Automating html-proofer
 
