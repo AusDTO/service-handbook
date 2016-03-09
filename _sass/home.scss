@@ -1,0 +1,119 @@
+@mixin guide-background-colour($colour) {
+  background-color: $colour;
+  color: #fff;
+
+  &:hover {
+    background-color: darken($colour, 10%);
+  }
+}
+
+main.home {
+  padding-bottom: 30px;
+
+  .intro {
+    background: $primary-colour;
+    color: #fff;
+    padding: 20px 15px;
+
+    h1 {
+      padding: 0;
+    }
+
+    a, a:link, a:visited {
+      color: #fff;
+    }
+
+    p {
+      padding: 10px 0;
+      font-size: 14px;
+      padding-right: 17%;
+      color: #fff;
+    }
+
+    @media (min-width: 800px) {
+      padding: 40px 25px 50px;
+      margin-bottom: 10px;
+
+      h1 {
+        font-size: 51px;
+      }
+
+      p {
+        font-size: 19px;
+      }
+    }
+  }
+
+  p {
+    padding: 10px 15px;
+    font-size: 15px;
+
+    @media (min-width: 800px) {
+      padding: 10px 17% 10px 25px;
+      color: #555;
+      font-size: 19px;
+    }
+  }
+
+  .guides-list {
+    padding: 15px;
+    overflow: auto;
+
+    @media (min-width: 800px) {
+      padding: 15px 25px;
+    }
+
+    li {
+      list-style: none;
+      display: block;
+
+      @media (min-width: 800px) {
+        float: left;
+        width: 25%;
+
+        padding-right: 3px;
+      }
+    }
+
+    h2 {
+      font-size: 14px;
+      font-weight: bold;
+      color: #444;
+      padding: 10px 0;
+      text-transform: uppercase;
+    }
+
+    a {
+      display: block;
+      width: 100%;
+      padding: 10px;
+
+      background: #eee;
+      color: #000;
+
+      text-decoration: none;
+
+      @media (min-width: 800px) {
+        min-height: 100px;
+      }
+
+      &:hover {
+        background: #aaa;
+      }
+    }
+
+    .alpha a {
+      @include guide-background-colour($alpha-colour);
+    }
+    .discovery a {
+      @include guide-background-colour($discovery-colour);
+    }
+    .beta a {
+      @include guide-background-colour($beta-colour);
+    }
+    .live a {
+      @include guide-background-colour($live-colour);
+    }
+  }
+
+}
