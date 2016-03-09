@@ -7,7 +7,7 @@ When choosing the technology for building prototypes in alpha, you should choose
 
 All teams should prototype by sketching in code, using HTML, CSS and JavaScript. We strongly advise against using software like Axure, Omnigraffle, or Balsamiq - these tools generally don't support a collaborative, multi-disciplinary working environment.
 
-It's completely fine (and strongly recommended) to throw away the prototypes you build. You may choose to re-use some design patterns or components when you build the Beta, but we would advise against re-using a prototype en masse.
+It's completely fine (and strongly recommended) to throw away the prototypes you build. You may choose to re-use some design patterns or components when you build the Beta, but you should not re-use a whole prototype.
 
 ## 3.2.1. Use a static-site generator
 
