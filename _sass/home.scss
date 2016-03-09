@@ -96,7 +96,10 @@ main.home {
       text-decoration: none;
 
       @media (min-width: 800px) {
-        min-height: 100px;
+        padding: 32px 0;
+        height: 100px;
+        text-align: center;
+        font-size: 23px;
       }
 
       &:hover {
