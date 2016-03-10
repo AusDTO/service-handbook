@@ -12,7 +12,6 @@ The most effective digital teams are ones where everyone works on the team full-
 For alpha, the following roles in the team are essential:
 
 - Product manager
-- Service manager
 - Business analyst
 - Delivery manager
 - User researcher
@@ -21,6 +20,8 @@ For alpha, the following roles in the team are essential:
 - Agile coach
 - Developer
 - Content designer
+
+A senior member of the organisation should take the 'senior responsible owner' role. Often, this might be the product manager, but it can be someone else.
 
 There is more detail on each of these roles [in the Digital Service Standard](https://www.dto.gov.au/standard/design-guides/the-team/).
 
