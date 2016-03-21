@@ -4,7 +4,7 @@ section: 3-finishing-discovery
 ---
 As you move through the Service Design and Delivery phases, the team will naturally expand and contract, ensuring you have the right skill composition for each phase.
 
-The recommended team composition for the Alpha phase is:
+The recommended team composition for the [Alpha]({{ site.baseurl }}/alpha/) phase is:
 
 - Service Manager
 - Product Manager
