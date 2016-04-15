@@ -24,9 +24,9 @@ Deployment is the process of releasing new features to the users, which should b
 
 
 # Level 0
-When you only release software every 6-18 months deployments can be a very big deal. Typically individual teams are responsible for planning, scheduling, performing and testing the process.
+When you only release software every 6-18 months, deployments can be a very big deal. Typically there are individual teams responsible for planning, scheduling, performing and testing the release.
 
-Because of the time, effort and money involved in releasing software, organisations can be  protective of their release process leading to stagnation. This makes iteration, optimisation and innovation difficult.
+Because of the time, effort and money involved in releasing software, organisations can be  protective of their release process, which leads to stagnation. This makes iteration, optimisation and innovation difficult.
 
 ### Indications that you're operating at level 0
 
@@ -52,7 +52,7 @@ Although there is little human involvement in releases, they still require the s
  - There are environments specifically for performing deployments, and an environment pipeline, (typically: development &rarr; pre-production &rarr; production). This helps to ensure that deployments are consistent, and that only successful deployments are made available to users.
  - The development team are able to schedule a release when they choose, based on user needs, and don't require help from outside the team, once the relevant approvals have been given.
  - Smoke screen testing is performed to ensure that the deployment didn't silently fail, but doesn't demonstrate that user functionality has been delivered, or that the system performs as expected.
- - Deployments are typically scheduled to happen outside of the user's regular usage times, in order to minimize disruption for the users.
+ - Deployments are typically scheduled to happen outside of the user's regular usage times in order to minimize disruption for the users.
 
 
 ### Working towards level 2
@@ -68,7 +68,7 @@ Automating the end-to-end release process has resulted in multiple releases per 
 
 ### Indications that you're operating at level 2
 
- - Deployments are completely automated for all components of the system, and don't require any intervention from any internal or external team members. This puts the control of flow of features in the hands of the team who have the most empathy for the users.
- - There are no impacts to the users when new features are released. Deployments happen instantaneously and are guaranteed to have the correct set of features which function exactly as expected without any surprises.
- - Individual features are atomically deployable and don't impact / aren't impacted by the in-progress development of other features. If a feature isn't wanted, it can be pulled from production without impacting the rest of the system.
+ - Deployments are completely automated for all components of the system, and don't require any intervention from any internal or external team members. This puts the control of feature delivery in the hands of the team who have the most empathy for the users.
+ - There are no impacts to the users when new features are released. Deployments happen instantaneously and are guaranteed to have the correct set of features that function exactly as expected without any surprises.
+ - Individual features are atomically deployable and don't impact, and aren't impacted by, the in-progress development of other features. If a feature isn't wanted, it can be pulled from production without impacting the rest of the system.
  - Virtualization or configuration management tools, such as docker chef or puppet, are used to ensure consistency between  developers, eliminating any systemic issues due to environmental configuration

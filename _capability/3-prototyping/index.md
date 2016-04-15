@@ -58,8 +58,8 @@ Prototypes are being used successfully during your service design process, and t
 
 ### Moving to level 2
 
- - Start pair-programming with your designers when implementing coded prototypes. [There](http://www.w3schools.com/html/default.asp) are [heaps](http://www.w3schools.com/css/default.asp) of free learning resources online to help people learn (or re-learn) how to build content for the web.
- - Start to publish with your prototypes on the open web. There are lots of free hosting options available and most of them support the agile delivery process.
+ - Have designers and developers start pair-programming when implementing coded prototypes. [There](http://www.w3schools.com/html/default.asp) are [heaps](http://www.w3schools.com/css/default.asp) of free learning resources online to help people learn (or re-learn) how to build content for the web.
+ - Start to publish your prototypes on the web. There are lots of free hosting options available and most of them support the agile delivery process.
 
 # Level 2
 
@@ -67,6 +67,6 @@ Prototypes are a core part of your service design process, and the entire team w
 
 ### Indications that you're operating at level 2
 
-- Designers are using the production development tools (such as HTML and CSS) to produce working prototypes. Developers help out with the particularly hairy sections, but the whole team gets their hands dirty.
+- Designers are using the production development tools (such as HTML and CSS) to produce working prototypes. Developers help out with the particularly tricky sections, but the whole team gets their hands dirty.
 - Prototypes are published to a 'live' environment, and deployed continuously throughout their development as improvements are made and alternatives are produced.
 - The prototypes are used to supplement user research, with activities such as alpha-beta testing used to gather large amounts of supporting data  

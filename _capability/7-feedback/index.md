@@ -17,14 +17,14 @@ Users don't think that you take issues and defects seriously, so they've stopped
 
 ### Indications that you're operating at level 0
 
-- Each developer manages a list of the bugs that they've discovered and working on. The lists aren't shared with anyone else, so nobody really knows what the complete list of bugs are, and which ones are being worked on.
+- Each developer manages a list of the bugs that they've discovered and are working to fix. The lists aren't shared with anyone else, so nobody really knows what the complete list of bugs are, and which ones are being worked on.
 - Unless a user describes what they were doing in excruciating detail when they encountered a bug, their defect will be closed with a status of '[Works on my Machine](https://shkspr.mobi/blog/2016/01/works-on-my-machine/)' or 'Not a bug'
 - Bugs take so long to be resolved, the users have collaboratively developed a 'workaround' list so they can keep using the system while they wait.
 
 
 ### Working towards level 1
- - Get serious about issues and defects by tracking and managing them in a tool, preferably one that is integrated with your version control system. Read up on how ways to manage issues, such as github's [Mastering Issues](https://guides.github.com/features/issues/) guide.
- - Actually use your product - build some user empathy by walking in their shoes and experiencing first-hand what their experience is like using your product.
+ - Get serious about issues and defects by tracking and managing them in a tool, preferably one that is integrated with your version control system. Read up on ways to manage issues, such as github's [Mastering Issues](https://guides.github.com/features/issues/) guide.
+ - Actually use your service - build some user empathy by walking in their shoes and experiencing first-hand what it is like.
 
 
 # Level 1
