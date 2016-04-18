@@ -42,7 +42,7 @@ Although these habits have served you well they're not always a good fit for eve
 
 
 - The team don't feel proud of the code; it's difficult to work with and very brittle, resulting in stagnation, degradation and abandonment.
-- The code is difficult to work with causing the team's velocity to be very low, haphazard and unpredictable.
+- The code is difficult to work with and causes the team's velocity to be very low, haphazard and unpredictable.
 - Programming is a stressful experience.
 
 
@@ -55,7 +55,7 @@ Although these habits have served you well they're not always a good fit for eve
 
 # Level 1
 
-Code that is consistent and understandable is easier to develop with and maintain. Fixing bugs is quicker, and features are simpler to introduce.
+Code that is consistent and understandable is easier to work with and maintain. Fixing bugs is quicker, and features are simpler to introduce.
 
 ### Indications that you're operating at level 1
 
@@ -66,15 +66,15 @@ Code that is consistent and understandable is easier to develop with and maintai
 > String userPreferredName;
 
  - Code is clean and appropriately documented which makes it easier for others to read and maintain
- - Technical debt is continually measured, and given high priority during sprint planning
+ - Technical debt is continually measured, and given attention during planning
  - Classes have a single responsibility, and only have functionality to achieve their purpose.
 
 
 ### Moving to level 2
 
  - Start writing smaller methods, and refactoring large ones to be smaller and more reusable.
- - Carefully think about how the decisions you make impact others in your team: [Always code as if the person who ends up maintaining your code is a violent psychopath who knows where you live](http://c2.com/cgi/wiki?CodeForTheMaintainer)
- - Begin using design techniques that build user empathy [Getting started with DDD](http://www.informit.com/articles/article.aspx?p=1944876&seqNum=3)
+ - Carefully think about how the decisions you make impact others in your team: [Always code as if the person who ends up maintaining your code is a violent psychopath who knows where you live](http://c2.com/cgi/wiki?CodeForTheMaintainer), and [code like the world is watching](http://todaymade.com/blog/open-source-code/)
+ - Begin using design techniques that build user empathy, such as [Getting started with DDD](http://www.informit.com/articles/article.aspx?p=1944876&seqNum=3)
  - Read up on what makes [clean, high quality code](https://www.butterfly.com.au/thinking/blog/entry/clean-high-quality-code-a-guide-on-how-to-become-a-better-programmer)
 
 
@@ -91,9 +91,9 @@ Treating form as importantly as function makes maintaining the system simple and
  - Code is self-documenting, and the intent and structure are self-evident based on the user's vocabulary:
 
 > Vaccine vaccine = vaccines.standardAdultFluDose();
-> nurse.administerFluVaccine(patient, vaccine);
+> nurse.administerVaccine(patient, vaccine);
 
  - Code is continually refactored to be simpler, cleaner, easier to understand and work with
- - The team are proud of their code; it's a joy to work on and improve. Introducing new features is quick and simple.
+ - The team are proud of their code; it's a joy to work on and improve and introducing new features is quick and simple.
  - The team's velocity is high and consistent; features are delivered to users on time
  - Programming is fun again.
