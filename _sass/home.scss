@@ -119,6 +119,9 @@ main.home {
     .live a {
       @include guide-background-colour($live-colour);
     }
+    .capability a {
+      @include guide-background-colour($capability-colour);
+    }
   }
 
 }
