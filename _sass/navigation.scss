@@ -1,4 +1,4 @@
-nav {
+nav.global {
   background: $primary-colour;
   padding: 10px 0;
 
@@ -81,5 +81,14 @@ ul.guide-content {
         padding: 2px 10px 2px 20px;
       }
     }
+  }
+}
+
+ul.table-of-contents {
+  padding-left: 0;
+
+  li {
+    font-size: 15px;
+    list-style: none;
   }
 }
