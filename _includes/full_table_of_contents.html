@@ -1,0 +1,25 @@
+{% assign guide = site.collections | where:"label",page.collection | first %}
+
+<nav>
+  <h1>Contents</h1>
+  <ul class="table-of-contents">
+
+    {% for section in guide.sections %}
+      {% assign sectionfor = forloop %}
+      {% assign index = guide.docs | where:"section",section | where:"index",true | first %}
+
+      <li>
+        <a href="#{{ sectionfor.index }}">{{ index.title }}</a>
+
+        {% assign docs = guide.docs | where:"section",section | where:"index",false %}
+        {% if docs.size > 0 %}
+          <ul>
+            {% for doc in docs %}
+              <li><a href="#{{ sectionfor.index }}-{{ forloop.index }}">{{ doc.title }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

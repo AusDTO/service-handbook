@@ -76,19 +76,19 @@ main {
   }
 
   &.discovery {
-    header, nav {
+    header, nav.global {
       background: $discovery-colour;
     }
   }
 
   &.alpha {
-    header, nav {
+    header, nav.global {
       background: $alpha-colour;
     }
   }
 
   &.capability {
-    header, nav {
+    header, nav.global {
       background: $capability-colour;
     }
   }
@@ -120,4 +120,31 @@ img.full-width {
 img.half-width {
   display: inline;
   width: 50%;
+}
+
+article.full {
+
+  > section, nav {
+    padding: 20px 0 40px;
+    border-bottom: 1px solid #eee;
+  }
+
+  > section:last-of-type {
+    border-bottom: none;
+  }
+
+  /*
+  Until we rewrite the Markdown to use third-level headings, we will need to
+  hack the <h2>s here so that the first heading has the proper <h2> styling.
+  */
+  > section > section {
+    h2:not(:first-of-type) {
+      font-size: 17px;
+    }
+  }
+
+  nav {
+    padding-top: 0;
+  }
+
 }

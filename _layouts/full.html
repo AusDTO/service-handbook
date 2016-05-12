@@ -1,0 +1,28 @@
+---
+layout: base
+---
+
+{% assign guide = site.collections | where:"label",page.collection | first %}
+{% assign children = guide.docs | where:"section",page.section | where:"index",false %}
+
+<article class="full">
+  {% include full_table_of_contents.html %}
+
+  {% for section in guide.sections %}
+    {% assign sectionfor = forloop %}
+
+    <section class="section">
+      {% assign index = guide.docs | where:"section",section | where:"index",true | first %}
+      <h1 id="{{ sectionfor.index }}">{{ index.title }}</h1>
+      {{ index.content }}
+
+      {% assign docs = guide.docs | where:"section",section | where:"index",false %}
+      {% for doc in docs %}
+        <section class="subsection">
+          <h2 id="{{ sectionfor.index }}-{{ forloop.index }}">{{ doc.title }}</h2>
+          {{ doc.content }}
+        </section>
+      {% endfor %}
+    </section>
+  {% endfor %}
+</article>
