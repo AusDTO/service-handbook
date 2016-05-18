@@ -20,8 +20,8 @@ You should also consider the capabilities required in the team to support the te
 
 ## 4.2.2. Meeting the Digital Service Standard
 
-A retrospective style review of the team’s progress should be held with the assessors once ratings against the criteria 1, 2 and 3 are green. Progress also needs to be demonstrated against all the other criteria. 
+A retrospective-style review of the team’s progress should be held with the assessors once ratings against criteria 1, 2 and 3 are green. Progress also needs to be demonstrated against all other criteria. 
 
-Assessors should confirm, in collaboration with the team that the stage is complete. The assessors will draft a short report, using outcomes and information from the weekly check-ins, addressing the progress against all relevant criteria. The report should highlight areas of good performance, areas where further work needs to done, and the recommendations.
+Assessors should confirm, in collaboration with the team, that the stage is complete. The assessors will draft a short report, using outcomes and information from the weekly check-ins, addressing the progress against all relevant criteria. The report should highlight areas of good performance, areas where further work needs to done, and the recommendations.
 
 That assessment report will then be submitted to the Standards team for publication on the [DTO's Assessment reports page](https://www.dto.gov.au/standard/assessments/).
