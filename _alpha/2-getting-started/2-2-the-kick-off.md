@@ -17,4 +17,5 @@ You should also cover:
 - a rough plan for user research throughout the Alpha stage, and the feedback loops from the research findings
 - the stakeholders involved, and how the team will share progress updates
 - how the technology stack for Beta will be chosen, and who needs to be involved in the discussions
-- the Digital Service Standard criteria, and how the team will prepare for its first assessment
+
+Assessors continue to join the team for the weekly check ins, and document progress in the RAG Rating Tool.
