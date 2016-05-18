@@ -3,7 +3,7 @@ title: '2.2. The kick off'
 section: 2-starting-discovery
 ---
 
-The Discovery starts with a kick-off session, which includes the whole team, plus subject matter experts and business owners. It’s helpful for senior stakeholders to drop in for a short while too. Kicking off a Discovery is typically a collection of high-energy collaborative workshops over the course of 2 days.
+The Discovery starts with a kick-off session, which includes the whole team, plus subject matter experts and business owners, and three assessors that have been [assigned](https://www.dto.gov.au/standard/meeting-standard/) to this product. It’s helpful for senior stakeholders to drop in for a short while too. Kicking off a Discovery is typically a collection of high-energy collaborative workshops over the course of 2 days.
 
 Before the session, you should collect existing research and data around the service and the current user experience.
 
