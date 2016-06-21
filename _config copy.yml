@@ -1,0 +1,58 @@
+exclude:
+  - Gemfile
+  - Gemfile.lock
+baseurl: /service-handbook
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+collections:
+  discovery:
+    output: true
+    name: Discovery
+    sections:
+      - 1-introduction
+      - 2-starting-discovery
+      - 3-finishing-discovery
+      - 4-further-reading
+
+  alpha:
+    output: true
+    name: Alpha
+    sections:
+      - 1-introduction
+      - 2-getting-started
+      - 3-building-prototypes
+      - 4-finishing-alpha
+
+  inflight:
+    output: true
+    name: Inflight
+    sections:
+	  - 1-in-flight-assessments
+	  - 2-check-ins
+	  - 3-assessment-reviews
+	  - 4-delivery-stages
+	  - 5-tools
+
+  capability:
+    output: true
+    name: Capability
+    sections:
+      - 1-introduction
+      - 3-prototyping
+      - 4-development
+      - 5-version-control
+      - 6-quality
+      - 7-feedback
+      - 8-integration
+      - 9-deployment
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      index: false
+      section: null
+      layout: main
