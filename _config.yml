@@ -39,16 +39,6 @@ collections:
       - 8-integration
       - 9-deployment
 
-  inflight:
-    output: true
-    name: Inflight
-    sections:
-	  - 1-in-flight-assessments
-	  - 2-check-ins
-	  - 3-assessment-reviews
-	  - 4-delivery-stages
-	  - 5-tools
-
 defaults:
   - scope:
       path: ""
