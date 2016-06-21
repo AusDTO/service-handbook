@@ -1,5 +1,6 @@
 ---
 title: Check-ins
+section: 2-check-ins
 index: true
 ---
 
