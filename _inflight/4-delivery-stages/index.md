@@ -40,15 +40,15 @@ During each check-in use the recommendations made in the previous one. You don�
 
 ### Contribute to progress reports
 
-**DTO assessors** provide the team’s RAG ratings to the [Digital Service Standard team](standard@digital.gov.au) by **12 noon each Friday**. The team collates the ratings into a full portfolio report. This report is not public.
+**DTO assessors** provide the team’s RAG ratings to the [Digital Service Standard team](mailto:standard@digital.gov.au) by **12 noon each Friday**. The team collates the ratings into a full portfolio report. This report is not public.
 
 ### Moving to Beta
 
-Once the service has green ratings against criteria 1-3 you can hold an [assessment review](#assessmentreview). You do this review before the service moves to Beta.
+Once the service has green ratings against criteria 1-3 you can hold an [assessment review](/3-assessment-reviews/). You do this review before the service moves to Beta.
 
 ### Getting ready for public beta release
 
-If the service maintains green ratings against all criteria and the team believes the service is ready to be released as a public beta you hold an [assessment review](#assessmentreview). 
+If the service maintains green ratings against all criteria and the team believes the service is ready to be released as a public beta you hold an [assessment review](https://github.com/AusDTO/service-handbook/tree/gh-pages/_inflight/3-assessment-reviews). 
 
 ### Getting ready to move to Live
 
@@ -56,7 +56,7 @@ Once the service is in public Beta you should keep running regular check-ins wit
 
 Record any changes in reporting schedule in the in-flight check-in report. These will affect how the service data appears on the [Performance Dashboard](https://www.dto.gov.au/our-work/performance/).
 
-If the service has maintained green ratings against all criteria, take-up of the service is on track and is working better than the current live service (if there is one) you can hold a final [assessment review](#assessmentreview). This is how the service progresses to Live.
+If the service has maintained green ratings against all criteria, take-up of the service is on track and is working better than the current live service (if there is one) you can hold a final [assessment review](https://github.com/AusDTO/service-handbook/tree/gh-pages/_inflight/3-assessment-reviews). This is how the service progresses to Live.
 
 ## Live
 
