@@ -22,7 +22,7 @@ The assessment review should run as part of the regular check-in, but you may wa
 
 ## Write report
 
-Write the assessment report using the [report templates](/5-tools/). Refer to progress against all the relevant criteria and use the notes and data you have recorded at your regular check-ins to inform your report. 
+Write the assessment report using the [report templates](https://github.com/AusDTO/service-handbook/tree/gh-pages/_inflight/5-tools). Refer to progress against all the relevant criteria and use the notes and data you have recorded at your regular check-ins to inform your report. 
 
 The reports are an opportunity to showcase what the digital delivery team has done and to help other teams. Draw out all the elements of good performance against the Standard. 
 

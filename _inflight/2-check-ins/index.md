@@ -34,7 +34,7 @@ The lead assessor proposes a RAG rating for each criterion to the delivery team 
 
 Work with the team to agree on the rating for each criterion on the in-flight check-in report. Reach an agreement on the rating and what actions the team need to take.
 
-You should [escalate the problem](/5-tools/#escalate) if there are:
+You should [escalate the problem](https://github.com/AusDTO/service-handbook/blob/gh-pages/_inflight/3-assessment-reviews/index.md#escalate) if there are:
 
 *	any red ratings 2 weeks in a row
 *	delays in progress
