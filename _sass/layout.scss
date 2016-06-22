@@ -75,6 +75,10 @@ main {
     }
   }
 
+  header, nav.global {
+    background: $primary-colour;
+  }
+
   &.discovery {
     header, nav.global {
       background: $discovery-colour;

@@ -1,5 +1,6 @@
 ---
 title: The delivery stages
+section: 4-delivery-stages
 index: true
 ---
 
