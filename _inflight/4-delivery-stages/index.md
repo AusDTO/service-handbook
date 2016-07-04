@@ -14,9 +14,9 @@ During the Mobilisation stage your agency will assign 3 assessors to the digital
 
 For assessments led by the DTO the Standard team will assign the assessors.
 
-*   You should attend part of the team’s kick off to discuss:
+*   You should attend part of the team&rsquo;s kick off to discuss:
 *   your role
-*   the digital delivery team’s expectations about meeting the Standard 
+*   the digital delivery team&rsquo;s expectations about meeting the Standard 
 *   how the team will document progress against the criteria using the Standard Kanban board
 *   when regular check-ins will be held (the DTO runs check-ins on Thursday mornings) and if you will attend in-person or via videoconference
 *   which ceremonies you will attend regularly
@@ -24,7 +24,7 @@ For assessments led by the DTO the Standard team will assign the assessors.
 
 ## Discovery
 
-During the Discovery stage you run the in-flight check-in during each sprint, in person or by videoconference. You will discuss the team’s activities, artefacts and evidence.
+During the Discovery stage you run the in-flight check-in during each sprint, in person or by videoconference. You will discuss the team&rsquo;s activities, artefacts and evidence.
 
 During Discovery the check-ins will be mainly focused on user research and what the team is learning. 
 
@@ -36,11 +36,11 @@ Once the team agrees they understand the user needs and can work as a proper mul
 
 During Alpha and Beta stages you continue to run the team’s regular check-ins. Continue to document progress against the criteria using the in-flight check-in report. 
 
-During each check-in use the recommendations made in the previous one. You don’t have to review each criterion each week, as long as you know the team is progressing actions to meet that criteria.
+During each check-in use the recommendations made in the previous one. You don&rsquo;t have to review each criterion each week, as long as you know the team is progressing actions to meet that criteria.
 
 ### Contribute to progress reports
 
-**DTO assessors** provide the team’s RAG ratings to the [Digital Service Standard team](mailto:standard@digital.gov.au) by **12 noon each Friday**. The team collates the ratings into a full portfolio report. This report is not public.
+**DTO assessors** provide the team&rsquo;s RAG ratings to the [Digital Service Standard team](mailto:standard@digital.gov.au) by **12 noon each Friday**. The team collates the ratings into a full portfolio report. This report is not public.
 
 ### Moving to Beta
 
@@ -60,7 +60,7 @@ If the service has maintained green ratings against all criteria, take-up of the
 
 ## Live
 
-When the service is live the digital delivery team will continue to regularly check it continues to meet users’ needs.
+When the service is live the digital delivery team will continue to regularly check it continues to meet users&rsquo; needs.
 
 The service performance will continue to be reported on the Performance Dashboard.
 
