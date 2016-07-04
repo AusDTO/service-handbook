@@ -16,7 +16,7 @@ The product manager, or other team member, talks for 5 minutes about the week’
 
 Go through the Standard criteria, looking at the recommendations made in the previous check-in, and the team’s artefacts and evidence. As an assessor you are looking for evidence that things have progressed. Asking the team to ‘show the thing’ is the mantra for check-ins. 
 
-Use the [inflight check-in report](/5-tools/) to rate progress red/amber/green (RAG) and make recommendations for each criterion. 
+Use the [inflight check-in report]({{ site.baseurl }}/_inflight/5-tools/) to rate progress red/amber/green (RAG) and make recommendations for each criterion. 
 
 Use notes in the in-flight check-in report from the previous check-ins as a starting point and to confirm all follow-ups are complete. 
 
@@ -34,7 +34,7 @@ The lead assessor proposes a RAG rating for each criterion to the delivery team 
 
 Work with the team to agree on the rating for each criterion on the in-flight check-in report. Reach an agreement on the rating and what actions the team need to take.
 
-You should [escalate the problem](https://github.com/AusDTO/service-handbook/blob/gh-pages/_inflight/3-assessment-reviews/index.md#escalate) if there are:
+You should [escalate the problem]({{ site.baseurl }}/_inflight/3-assessment-reviews/index.md#escalate) if there are:
 
 *	any red ratings 2 weeks in a row
 *	delays in progress
