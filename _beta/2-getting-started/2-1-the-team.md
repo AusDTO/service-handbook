@@ -10,16 +10,49 @@ The team for Beta should build upon the team already established during the Disc
 You’ll have worked out during Alpha how effective your team is at delivering digital products, which will help you decide if you need to increase your delivery capacity. 
 Don’t be afraid to bring in additional help, but don’t overdo it. Every new team member will need to go through the journey of understanding your user needs, which will take time away from actually building the Beta.
 
-Mobilisation	Discovery	Alpha	Beta
-Digital Transformation Manager (DTM)	Digital Transformation Manager (DTM)	Digital Transformation Manager (DTM)	Digital Transformation Manager (DTM)
-Product Manager	Product Manager	Product Manager	Product Manager
-Service Manager	Service Manager	Service Manager	Service Manager
-Business Analyst	Business Analyst	Business Analyst	Business Analyst
-	Delivery Manager	Delivery Manager	Delivery Manager
-	User Researcher	User Researcher	User Researcher
-	Service Designer	Interaction Designer	Service Designer / Interaction Designer
-	Tech Lead	Tech Lead	Tech Lead
-	Agile Coach	Agile Coach	Agile Coach
-		Developer	Developer
-		Content Designer	Content Designer
-			Additional Developers
+<table>
+	<thead>
+	<tr>
+		<th>Mobilisation</th> <th>Discovery</th> <th>Alpha</th> <th>Beta</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>Digital Transformation Manager (DTM)</td> <td>Digital Transformation Manager (DTM)</td> <td>Digital Transformation Manager (DTM)</td> <td>Digital Transformation Manager (DTM)</td>
+	</tr>
+	<tr>
+		<td>Product Manager</td> <td>Product Manager</td> <td>Product Manager</td> <td>Product Manager</td>
+	</tr>
+	<tr>
+		<td>Service Manager</td> <td>Service Manager</td> <td>Service Manager</td> <td>Service Manager</td>
+	</tr>
+	<tr>
+		<td>Business Analyst</td> <td>Business Analyst</td> <td>Business Analyst</td> <td>Business Analyst</td>
+	</tr>
+	<tr>
+		<td></td> <td>Delivery Manager</td> <td>Delivery Manager</td> <td>Delivery Manager</td>
+	</tr>
+	<tr>
+		<td></td> <td>User Researcher</td> <td>User Researcher</td> <td>User Researcher</td>
+	</tr>
+	<tr>
+		<td></td> <td>Service Designer</td> <td>Interaction Designer</td> <td>Service Designer / Interaction Designer</td>
+	</tr>
+	<tr>
+		<td></td> <td>Tech Lead</td> <td>Tech Lead</td> <td>Tech Lead</td>
+	</tr>
+	<tr>
+		<td></td> <td>Agile Coach</td> <td>Agile Coach</td> <td>Agile Coach</td>
+	</tr>
+	<tr>
+		<td></td> <td></td> <td>Developer</td> <td>Developer</td>
+	</tr>
+	<tr>
+		<td></td> <td></td> <td>Content Designer</td> <td>Content Designer</td>
+	</tr>
+	<tr>
+		<td></td> <td></td> <td></td> <td>Additional Developers</td>
+	</tr>
+	</tbody>
+</table>
+
