@@ -45,7 +45,7 @@ Email the report to the Digital Service Standard team [standard@digital.gov.au](
 
 Assessment reports are published within 2 days.
 
-## <a name="escalation">Escalating problems</a>
+## <a id="escalation"></a>Escalating problems
 
 You should resolve any disagreements between assessors and the digital delivery team as quickly as possible so they don’t block progress. 
 
