@@ -39,9 +39,9 @@ We use [bundler](http://bundler.io/) to handle configuration and dependency mana
 
 **2. Use jekyll to generate a version of the site that html-proofer can check**
 
-We deploy our guides on github-pages, under a directory name corresponding the the guid, in this case 'ausdto.github.io/**service-handbook**/'.
+We deploy our guides on github-pages, under a directory name corresponding to the guide, in this case 'ausdto.github.io/**service-handbook**/'.
 
-The links jekyll generates expect the site to be hosted under a directory called 'servie-handbook', and you'll need to instruct jekyll to do that for you before html-proofer will work
+The links jekyll generates expect the site to be hosted under a directory called 'service-handbook', and you'll need to instruct jekyll to do that for you before html-proofer will work
 
  > $ bundle exec jekyll build -d \_site/service-handbook/
 
@@ -53,4 +53,4 @@ html-proofer will check all the internal and external links exist, examine your 
 
 #### Automating html-proofer
 
-Internally, we use [Travis-ci](https://travis-ci.org/) to automatically run html-proofer whenever we commit to the guide. If you're making lots of changes, or building your own guide, we think should investigate using Travis.
+Internally, we use [Travis-ci](https://travis-ci.org/) to automatically run html-proofer whenever we commit to the guide. If you're making lots of changes, or building your own guide, we think you should investigate using Travis.
