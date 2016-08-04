@@ -31,7 +31,8 @@ collections:
     name: Capability
     sections:
       - 1-introduction
-      - 2-tech
+      - 2-multi
+      - 3-tech
 
   inflight:
     output: true
