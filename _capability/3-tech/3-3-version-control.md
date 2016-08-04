@@ -1,6 +1,6 @@
 ---
 title: "Version Control"
-section: 2-tech
+section: 3-tech
 ---
 
 Developing digital products creates files, **lots** of files.

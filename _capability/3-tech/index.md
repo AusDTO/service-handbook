@@ -1,5 +1,5 @@
 ---
 title: "Technical delivery"
-section: 2-tech
+section: 3-tech
 index: true
 ---

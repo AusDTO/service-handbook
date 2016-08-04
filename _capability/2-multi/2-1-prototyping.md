@@ -1,6 +1,6 @@
 ---
 title: "Prototyping"
-section: 2-tech
+section: 2-multi
 ---
 
 Why do engineers build models? Why do aerospace engineers build models of aircraft? Why to structural engineers build models of bridges? What purposes to these models serve?
