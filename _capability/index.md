@@ -3,7 +3,7 @@ title: Index
 index: true
 ---
 
-> This is the first release of the capability model, and we’ve focussed on the capabilities for technical delivery. Over time, we'll be extending this to cover other digital delivery skills such as design, product management and user research.
+> This is the first release of our capability model. We’ve focussed on the capabilities for technical delivery but over time we'll be extending it to cover other digital delivery skills such as design, product management and user research.
 
 
 
