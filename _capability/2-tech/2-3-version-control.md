@@ -1,7 +1,6 @@
 ---
 title: "Version Control"
-section: 5-version-control
-index: true
+section: 2-tech
 ---
 
 Developing digital products creates files, **lots** of files.

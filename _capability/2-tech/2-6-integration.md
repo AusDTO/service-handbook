@@ -1,7 +1,6 @@
 ---
 title: "Integration"
-section: 8-integration
-index: true
+section: 2-tech
 ---
 
 Building [simpler, clearer, faster public services](http://www.dto.gov.au) means reusing what's out there, working with others, and sharing what you've done.

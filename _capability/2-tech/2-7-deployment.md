@@ -1,7 +1,6 @@
 ---
 title: "Deployment"
-section: 9-deployment
-index: true
+section: 2-tech
 ---
 
 Deployment is the process of releasing new features to the users, which should be quick, simple and bullet-proof.
