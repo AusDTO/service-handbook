@@ -1,7 +1,6 @@
 ---
 title: "Quality"
-section: 6-quality
-index: true
+section: 2-tech
 ---
 
 Good quality is difficult to define and achieve, but bad quality is easy to spot and painful for your users to experience.

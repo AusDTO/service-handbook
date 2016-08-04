@@ -1,7 +1,6 @@
 ---
 title: "Feedback"
-section: 7-feedback
-index: true
+section: 2-tech
 ---
 
 Getting feedback is critical to the usefulness and ongoing health of the system, and ensures that you are continuing to be responsive to the needs of your users.

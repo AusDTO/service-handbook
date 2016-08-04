@@ -31,13 +31,7 @@ collections:
     name: Capability
     sections:
       - 1-introduction
-      - 3-prototyping
-      - 4-development
-      - 5-version-control
-      - 6-quality
-      - 7-feedback
-      - 8-integration
-      - 9-deployment
+      - 2-tech
 
   inflight:
     output: true
