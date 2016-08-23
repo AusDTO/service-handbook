@@ -8,6 +8,12 @@ This section documents how your check-ins should work. You and the digital deliv
 
 All assessors should attend every check-in. Meet with the whole team, or as many as you can. If there’s critical people who aren’t available you should reflect this in your ratings and notes.
 
+Typically, a lead assessor will guide the conversation to cover the following:
+
+*	What's been done
+*	Work through the criteria and discuss any actions the team should undertake
+*	Agree on the ratings
+
 ## Discuss what’s been done
 
 The product manager, or other team member, talks for 5 minutes about the week’s activities, highlights and challenges.
@@ -16,17 +22,19 @@ The product manager, or other team member, talks for 5 minutes about the week’
 
 Go through the Standard criteria, looking at the recommendations made in the previous check-in, and the team’s artefacts and evidence. As an assessor you are looking for evidence that things have progressed. Asking the team to ‘show the thing’ is the mantra for check-ins. 
 
-Use the [inflight check-in report](/5-tools/) to rate progress red/amber/green (RAG) and make recommendations for each criterion. 
+Use the [inflight check-in report]({{ site.baseurl }}/_inflight/5-tools/) to rate progress red/amber/green (RAG) and make recommendations for each criterion. 
 
 Use notes in the in-flight check-in report from the previous check-ins as a starting point and to confirm all follow-ups are complete. 
 
 We encourage digital delivery teams to use the [Digital Service Standard Kanban board](https://www.dto.gov.au/files/digital-service-standard-kanban-a0.pdf) to track their progress. You should be able to see all the tasks the team have underway and where they rate themselves on their Kanban board.
 
-You should ideally ‘walk the wall’ with the team to get a tangible understanding of what they are doing, and how their artefacts evidence their progress. For each criteria that is green, check if there have been any changes.
+You should ideally ‘walk the wall’ with the team to get a tangible understanding of what they are doing, and how their artefacts evidence their progress. You want to see evidence of their progress. For example, if they have produced a service map, ask to see it.
+
+For each criteria that is green, check if there have been any changes.
 
 For each criteria that is amber and red, ask for a recap of the actions completed to improve the rating. Use the artefacts column to record the evidentiary things you’ve seen. Give recommendations on work for the next sprint.
 
-Use the [in-flight check-in](https://www.dto.gov.au/files/digital-service-standard-kanban-a0.pdf) report to capture notes and changes in RAG ratings. Your notes may be shared with the delivery teams stakeholders, so your tone is important.
+Use the [in-flight check-in]({{ site.baseurl }}/_inflight/5-tools/) report to capture notes and changes in RAG ratings. Your notes may be shared with the delivery teams stakeholders, so your tone is important.
 
 ## Agree ratings
 
@@ -34,11 +42,15 @@ The lead assessor proposes a RAG rating for each criterion to the delivery team 
 
 Work with the team to agree on the rating for each criterion on the in-flight check-in report. Reach an agreement on the rating and what actions the team need to take.
 
-You should [escalate the problem](https://github.com/AusDTO/service-handbook/blob/gh-pages/_inflight/3-assessment-reviews/index.md#escalate) if there are:
+If you're rating something **Red**, you should [escalate the problem]({{ site.baseurl }}/_inflight/3-assessment-reviews/index.md#escalate) if there are:
 
 *	any red ratings 2 weeks in a row
 *	delays in progress
 *	irreconcilable differences between parties.
 
-It’s your job as an assessor to support the delivery team to meet the criteria and to make it clear what they need to do next.
+An **Amber** rating means the team have work to do and should aim to remedy or address the reason whey they are not on track in the coming sprint. An amber rating should trigger some concern but there is no need to escalate the issue.
+
+A **Green** rating means the team is on track for the sprint. There is no need for concern.
+
+It&rsquo;s your job as an assessor to support the delivery team to meet the criteria and to make it clear what they need to do next.
 

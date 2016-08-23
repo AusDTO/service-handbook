@@ -9,7 +9,7 @@ The in-flight checkins should be reviewed so that the team has a good overall vi
 ## Monitor service progress
 
 
-You will run an assessment review at 3 points of the service design and delivery process:
+You will run an assessment review at 3 transition points of the service design and delivery process:
 
 1.	At the end of Alpha, when the service has green ratings against criteria 1, 2 and 3 and can show progress on the other criteria. This review informs the Alpha assessment report on the service. 
 2.	Before public Beta but before the public beta is launched, when the service has green ratings against all criteria. This review informs the Beta assessment report on the service.
@@ -22,7 +22,10 @@ The assessment review should run as part of the regular check-in, but you may wa
 
 ## Write report
 
-Write the assessment report using the [report templates](https://github.com/AusDTO/service-handbook/tree/gh-pages/_inflight/5-tools). Refer to progress against all the relevant criteria and use the notes and data you have recorded at your regular check-ins to inform your report. 
+Assessment reports are written after the 3 reviews mentioned previously. The reports are published on the DTO website.
+
+
+Write the assessment report using the [report templates]({{ site.baseurl }}/_inflight/5-tools). Refer to progress against all the relevant criteria and use the notes and data you have recorded at your regular check-ins to inform your report. 
 
 The reports are an opportunity to showcase what the digital delivery team has done and to help other teams. Draw out all the elements of good performance against the Standard. 
 
@@ -42,7 +45,7 @@ Email the report to the Digital Service Standard team [standard@digital.gov.au](
 
 Assessment reports are published within 2 days.
 
-## <a name="escalation">Escalating problems</a>
+## <a id="escalation"></a>Escalating problems
 
 You should resolve any disagreements between assessors and the digital delivery team as quickly as possible so they don’t block progress. 
 
