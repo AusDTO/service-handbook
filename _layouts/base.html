@@ -6,24 +6,57 @@
 
   <title>{{ page.title }} - Service Handbook - Digital Transformation Office</title>
 
+  <link rel="stylesheet" type="text/css" href="https://gov-au-ui-kit.apps.staging.digital.gov.au/latest/ui-kit.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://gov-au-ui-kit.apps.staging.digital.gov.au/kss-assets/kss.css"/>
+
+  <!--<script type="text/javascript" src="https://gov-au-ui-kit.apps.staging.digital.gov.au/latest/ui-kit.min.js"></script>-->
+
   <style type="text/css">
     @import url("{{ site.baseurl }}/stylesheets/service-handbook.css");
   </style>
+
 </head>
 <body>
 
-<header class="global">
-  <h1><a href="https://www.dto.gov.au/">Digital Transformation Office</a></h1>
-  <h2><a href="{{ site.baseurl }}/">Service Handbook</a></h2>
-</header>
+  <header role="banner">
+    <section class="govau--header">
+      <div class="wrapper">
+        <div class="govau--logo">
+          <a href="{{ site.baseurl }}/" class="logo">DTO service handbook</a>
+        </div>
+        <div class="feedback">
+          <a href="https://github.com/AusDTO/service-handbook/issues/new" class="button--feedback" role="button">Give feedback</a>
+        </div>
+      </div>
+    </section>
 
-<main class="{{ page.collection }} {{ page.section }}">
+  </header>
+
+
+<main role="main" class="{{ page.collection }} {{ page.section }}">
   {% include section_header.html %}
 
+  <main>
   <section class="column-container">
     {{ content }}
   </section>
 </main>
+</main>
+
+
+<footer role="contentinfo">
+  <div class="wrapper">
+    <section>
+      <div class="footer-logo">
+        <img alt="Australian Government Coat of Arms" src="http://gov-au-ui-kit.apps.staging.digital.gov.au/latest/img/coat-of-arms.png">
+      </div>
+      <div class="footer-links">
+        <p>&copy; Commonwealth of Australia <br>
+        <a href="https://github.com/AusDTO/gov-au-ui-kit/blob/master/LICENSE.md" rel="external license">Licensed under the MIT License.</a></p>
+      </div>
+    </section>
+  </div>
+</footer>
 
 </body>
 </html>

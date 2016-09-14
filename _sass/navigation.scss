@@ -1,5 +1,4 @@
 nav.global {
-  background: $primary-colour;
   padding: 10px 0;
 
   @media (min-width: 800px) {
@@ -40,9 +39,6 @@ ul.top-level {
         padding: 8px 20px;
       }
 
-      &:hover {
-        background: darken($primary-colour, 10%);
-      }
     }
   }
 }
