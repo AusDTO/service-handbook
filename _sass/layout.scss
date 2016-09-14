@@ -75,31 +75,6 @@ main {
     }
   }
 
-  header, nav.global {
-    background: $primary-colour;
-  }
-
-  &.discovery {
-    header, nav.global {
-      background: $discovery-colour;
-    }
-  }
-
-  &.alpha {
-    header, nav.global {
-      background: $alpha-colour;
-    }
-  }
-
-  &.capability {
-    header, nav.global {
-      background: $capability-colour;
-    }
-  }
-
-  &.home {
-    border-top: 5px solid $primary-colour;
-  }
 }
 
 header.section {

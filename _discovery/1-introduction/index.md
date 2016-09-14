@@ -4,6 +4,7 @@ section: 1-introduction
 index: true
 ---
 
+
 <iframe class="video" width="100%" height="315" src="https://www.youtube.com/embed/k3DNy06Ddvg" frameborder="0" allowfullscreen></iframe>
 
 Discovery is the first stage of the service design and delivery process.
