@@ -8,6 +8,12 @@ This section documents how your check-ins should work. You and the digital deliv
 
 All assessors should attend every check-in. Meet with the whole team, or as many as you can. If there’s critical people who aren’t available you should reflect this in your ratings and notes.
 
+Typically, a lead assessor will guide the conversation to cover the following:
+
+*	What's been done
+*	Work through the criteria and discuss any actions the team should undertake
+*	Agree on the ratings
+
 ## Discuss what’s been done
 
 The product manager, or other team member, talks for 5 minutes about the week’s activities, highlights and challenges.
@@ -16,7 +22,7 @@ The product manager, or other team member, talks for 5 minutes about the week’
 
 Go through the Standard criteria, looking at the recommendations made in the previous check-in, and the team’s artefacts and evidence. As an assessor you are looking for evidence that things have progressed. Asking the team to ‘show the thing’ is the mantra for check-ins. 
 
-Use the [inflight check-in report](/5-tools/) to rate progress red/amber/green (RAG) and make recommendations for each criterion. 
+Use the [inflight check-in report]({{ site.baseurl }}/_inflight/5-tools/) to rate progress red/amber/green (RAG) and make recommendations for each criterion. 
 
 Use notes in the in-flight check-in report from the previous check-ins as a starting point and to confirm all follow-ups are complete. 
 
@@ -32,13 +38,16 @@ Use the [in-flight check-in](https://www.dto.gov.au/files/digital-service-standa
 
 The lead assessor proposes a RAG rating for each criterion to the delivery team and the other assessors.
 
+
 Work with the team to agree on the rating for each criterion on the in-flight check-in report. Reach an agreement on the rating and what actions the team need to take.
 
-You should [escalate the problem](https://github.com/AusDTO/service-handbook/blob/gh-pages/_inflight/3-assessment-reviews/index.md#escalate) if there are:
+
+
+You should [escalate the problem]({{ site.baseurl }}/_inflight/3-assessment-reviews/index.md#escalate) if there are:
 
 *	any red ratings 2 weeks in a row
 *	delays in progress
 *	irreconcilable differences between parties.
 
-It’s your job as an assessor to support the delivery team to meet the criteria and to make it clear what they need to do next.
+It&rsquo;s your job as an assessor to support the delivery team to meet the criteria and to make it clear what they need to do next.
 
