@@ -11,7 +11,7 @@ The assessors assigned to your team will have been joining you for weekly check-
 
 The criteria pages that support the Standard set out how teams will be assessed at each stage of the design and delivery process. During Discovery, teams should be focused on [criteria 1](https://www.dto.gov.au/standard/1-user-needs/) and [criteria 2](https://www.dto.gov.au/standard/2-multi-disciplinary-team/). 
 
-A [Kanban poster](https://www.dto.gov.au/files/digital-service-standard-kanban-a0.pdf) will help teams to track the activities and artefacts as they occur, demonstrating how the team is meeting the Standard. 
+A [Kanban poster](https://www.dta.gov.au/files/Digital%20Service%20Standard%20-%20Kanban%20poster-WCAG.pdf) will help teams to track the activities and artefacts as they occur, demonstrating how the team is meeting the Standard. 
 
 During the Discovery stage, assessors will conduct in-flight assessments. They will start working through each criteria at the weekly check-ins, documenting progress on the RAG rating tool.
 
