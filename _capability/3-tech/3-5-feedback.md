@@ -17,7 +17,7 @@ Users don't think that you take issues and defects seriously, so they've stopped
 ### Indications that you're operating at level 0
 
 - Each developer manages a list of the bugs that they've discovered and are working to fix. The lists aren't shared with anyone else, so nobody really knows what the complete list of bugs are, and which ones are being worked on.
-- Unless a user describes what they were doing in excruciating detail when they encountered a bug, their defect will be closed with a status of '[Works on my Machine](https://shkspr.mobi/blog/2016/01/works-on-my-machine/)' or 'Not a bug'
+- Unless a user describes what they were doing in excruciating detail when they encountered a bug, their defect will be closed with a status of 'Works on my Machine' or 'Not a bug'
 - Bugs take so long to be resolved, the users have collaboratively developed a 'workaround' list so they can keep using the system while they wait.
 
 
